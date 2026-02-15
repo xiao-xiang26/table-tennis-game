@@ -1,6 +1,7 @@
 ## table-tennis-game
 The game is made by pygame of Python.
-一个简单的乒乓球游戏模拟，使用了Pygame库来实现图形化效果。以下是对代码的详细分析：
+## 乒乓球游戏
+游戏由Python的pygame库制作。是一个简单的乒乓球游戏模拟，使用了Pygame库来实现图形化效果。以下是对代码的详细分析：
 
 # 初始化设置：
 设置帧率30FPS，创建时钟对象
