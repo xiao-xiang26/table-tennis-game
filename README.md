@@ -1,2 +1,16 @@
-# table-tennis-game
-The game is made by pygame of Python
+## table-tennis-game
+The game is made by pygame of Python.
+一个简单的乒乓球游戏模拟，使用了Pygame库来实现图形化效果。以下是对代码的详细分析：
+
+#初始化设置：
+设置帧率30FPS，创建时钟对象
+创建1246×520像素的游戏窗口
+加载背景图片（乒乓球桌）和乒乓球图片
+
+#游戏主循环：
+每次循环绘制背景
+根据direction变量控制乒乓球的运动方向
+检测退出事件
+
+#设计运动逻辑：
+让乒乓球反复在乒乓球桌上反复弹跳，实现先水平向右跳一次，再斜方向向左上跳一次，再水平向右跳一次，再斜方向向左下方跳一次，不断循环。
